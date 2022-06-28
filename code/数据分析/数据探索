@@ -1,0 +1,9 @@
+mylist = []
+path = "database"
+mydict = {}
+for file in os.listdir(path):
+    name = file.split('_')[0]
+    if not mydict.get(name):
+        mydict.update({name:1})
+        mylist.append(name)
+print("标签："+str(mylist))
