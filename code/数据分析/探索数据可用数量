@@ -10,5 +10,8 @@ if im.size[0] == 100 and im.size[1] == 100:
  if not newdict.get(name): 
  newdict.update({name:1}) 
  print(name) 
-
+else : 
+ newdict.update({name:newdict.get(name)+1}) 
+   for name in user_name: 
+ print(name + ' has: '+ str(newdict.get(name))) 
 
