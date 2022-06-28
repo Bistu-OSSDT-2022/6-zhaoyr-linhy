@@ -10,7 +10,4 @@ user_name = ['yi','er','san','ba','shi','ren','da']
  if not newdict.get(name): 
  newdict.update({name:1}) 
  print(name) 
- else : 
- newdict.update({name:newdict.get(name)+1}) 
-   for name in user_name: 
- print(name + ' has: '+ str(newdict.get(name))) 
+
