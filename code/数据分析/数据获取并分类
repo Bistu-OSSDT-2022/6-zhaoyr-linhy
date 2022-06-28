@@ -1,0 +1,6 @@
+DATA=dataload()
+
+train_images=DATA['train']
+test_images=DATA['test']
+train_labels=DATA['trainLabels']
+test_labels=DATA['testLabels']  
