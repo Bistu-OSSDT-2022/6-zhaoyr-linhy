@@ -1,0 +1,16 @@
+user_name = ['yi','er','san','ba','shi','ren','da'] 
+ path = 'database/' 
+ newdict = {} 
+ for file in os.listdir(path): 
+ name = file.split('_')[0] 
+ if name in user_name: 
+ im = Image.open(path+file) 
+ #print(im) 
+ if im.size[0] == 100 and im.size[1] == 100: 
+ if not newdict.get(name): 
+ newdict.update({name:1}) 
+ print(name) 
+ else : 
+ newdict.update({name:newdict.get(name)+1}) 
+   for name in user_name: 
+ print(name + ' has: '+ str(newdict.get(name))) 
