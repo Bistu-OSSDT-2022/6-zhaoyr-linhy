@@ -1,0 +1,44 @@
+user_name = ['yi','er','san','ba','shi','ren','da']
+path = 'database/'
+def img2vector(im):
+    im=im.convert("RGB")
+    img=np.array(im).flatten()
+    return img/255
+def dataload():
+    newdict={}
+    trainData=np.zeros((400*7,30000))
+    testData=np.zeros((100*7,30000))
+    trainLabels=[]
+    testLabels=[]
+    train_num=0
+    test_num=0
+    filepath=os.listdir(path)
+    random.shuffle(filepath)  
+    for file in filepath:
+        name=file.split('_')[0]
+        if name in user_name:
+            im=Image.open(path+file)
+            if im.size[0]==100 and im.size[1]==100:
+                if not newdict.get(name):
+                    newdict.update({name:1})
+                    #im.show()
+                else:
+                    newdict.update({name:newdict.get(name)+1})
+                #train
+                if newdict.get(name)<=400:
+                    trainData[train_num,:]=img2vector(im)
+                    train_num+=1
+                #test
+                elif newdict.get(name)<=500:
+                    testData[test_num,:]=img2vector(im)
+                    test_num+=1
+                    testLabels.append(name)
+                else:
+                    pass
+    return {'train':trainData,'trainLabels':trainLabels,'test':testData,'testLabels':testLabels}
+    DATA=dataload()
+
+train_images=DATA['train']
+test_images=DATA['test']
+train_labels=DATA['trainLabels']
+test_labels=DATA['testLabels']    
