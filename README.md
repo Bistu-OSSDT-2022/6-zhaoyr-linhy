@@ -10,4 +10,4 @@
 PPT撰写：乔佳鑫 李涵宇
 
 # LICENSE
-https://license
+[MIT](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/license)
