@@ -1,5 +1,8 @@
 user_name = ['yi','er','san','ba','shi','ren','da'] 
  path = 'database/' 
+ newdict = {} 
+ for file in os.listdir(path): 
+
 
 
 
