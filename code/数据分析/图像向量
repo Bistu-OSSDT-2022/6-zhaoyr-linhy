@@ -35,10 +35,4 @@ def dataload():
                     testLabels.append(name)
                 else:
                     pass
-    return {'train':trainData,'trainLabels':trainLabels,'test':testData,'testLabels':testLabels}
-    DATA=dataload()
-
-train_images=DATA['train']
-test_images=DATA['test']
-train_labels=DATA['trainLabels']
-test_labels=DATA['testLabels']    
+    return {'train':trainData,'trainLabels':trainLabels,'test':testData,'testLabels':testLabels}  
