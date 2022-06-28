@@ -1,8 +1,5 @@
 user_name = ['yi','er','san','ba','shi','ren','da'] 
  path = 'database/' 
- newdict = {} 
- for file in os.listdir(path): 
- name = file.split('_')[0] 
- if name in user_name: 
+
 
 
