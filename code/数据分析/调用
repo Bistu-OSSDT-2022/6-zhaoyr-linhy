@@ -1,9 +1,9 @@
 import os
-import numpy as np 
+import numpy as np
 from PIL import Image
 import random
 from sklearn import metrics
-from sklearn.neighbors import KNeighborsTransformer as KNN 
+from sklearn.neighbors import KNeighborsClassifier as KNN 
 import shutil
 import joblib
-import matplotlib.pyplot as p1t
+import matplotlib.pyplot as plt
