@@ -4,20 +4,25 @@
  欢迎大家继续读下去      
  😊😘❤️😍💕🤣😂👍
 
-# 指导老师
+# Tutor
 赵永瑞
 
-# 小组人员
-林涵钰  李涵宇  杨志鹏  乔佳鑫  崔凤扬
+# Group Members
+林涵钰  
+李涵宇  
+杨志鹏  
+乔佳鑫  
+崔凤扬
 
-# 小组分工
-  代码开发：杨志鹏 崔凤扬  
-  产品设计：林涵钰  
-  项目文档：全体  
-  PPT撰写：乔佳鑫 李涵宇
+# Group Division of Labor
+代码开发：杨志鹏 崔凤扬  
+产品设计：林涵钰  
+项目文档：全体  
+PPT撰写：乔佳鑫 李涵宇
 
-# 项目介绍
-这是一个人工智能识别汉字的小东西，还在积极还发中。。。。  
+# Introduction
+这是一个人工智能识别汉字的小东西，还在积极还发中。。。。
+想要了解更多可以查看[Introduction1](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/Introduction1)
 
 # INSTALL
 [Downloud code and build in](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy)
