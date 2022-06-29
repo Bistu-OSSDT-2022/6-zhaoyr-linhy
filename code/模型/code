@@ -1,23 +1,27 @@
 knn_acc = []
 m=0
 for i in range(1,20):
-    neigh = KNN(n_neighbors=i, algorithm='auto', weights='distance')
+    neigh = KNN(n_neighbors=i,algorithm='auto',weights='distance')
     neigh.fit(train_images,train_labels)
     y_pred = neigh.predict(test_images)
     print(metrics.adjusted_rand_score(test_labels,y_pred))
     if metrics.adjusted_rand_score(test_labels,y_pred)>m:
         m=metrics.adjusted_rand_score(test_labels,y_pred)
-        model_path = "./neigh_model"
+        model_path = './neigh_model'
         joblib.dump(neigh,model_path)
-    knn_acc.append(metrics.adjusted_rand_score(test_labels,y_pred))
+    knn_acc.append(metrics.accuracy_score(test_labels,y_pred))
+
+#图表展示不同K值训练处的模型的评估效果
 def plot_graphs_knn(knn_acc):
     plt.bar(list(range(1,20)),knn_acc)
     plt.xticks(np.arange(1,20,2))
-    plt.ylim(0.8,1.00)
+    plt.ylim(0.5,1)
     plt.xlabel('K')
     plt.ylabel('acc')
     plt.show()
 plot_graphs_knn(knn_acc)
-print("原数据标签:"+str(test_labels[:13])+"\n预测数据标签:")
-neigh_model=joblib.load('neigh_model')
+
+#识别
+print('原数据标签：'+str(test_labels[:13])+"\n预测数据标签：")
+neigh_model = joblib.load('neigh_model')
 neigh_model.predict(test_images[:13])
