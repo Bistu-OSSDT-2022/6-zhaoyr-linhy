@@ -19,5 +19,14 @@
 # 项目介绍
 这是一个人工智能识别汉字的小东西，还在积极还发中。。。。  
 
+# INSTALL
+[Downloud code and build in](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy)
+
+# FAQ
+[Frequently Asked Questions](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/issues)
+
+# CREDITS
+[List of contributors](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/CREDITS.md)
+
 # LICENSE
 [MIT](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/license)
