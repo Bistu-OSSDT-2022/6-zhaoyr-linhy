@@ -28,6 +28,8 @@
 # CREDITS
 [List of contributors](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/CREDITS.md)
 
+# HISTORY
+[Project evolution record](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/commits/program)
 
 # LICENSE
 [MIT](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/license)
