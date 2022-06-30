@@ -31,6 +31,10 @@ PPT撰写：乔佳鑫 李涵宇
 # Management Team
 答辩无组 Unhindered plea
 
+# Web Page Design
+About the web page [manufacturing process](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/page).
+![image](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/%E9%A1%B5%E9%9D%A2%E8%AE%BE%E8%AE%A1.jpg)
+
 # INSTALL
 [Downloud code and build in](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy)
 
