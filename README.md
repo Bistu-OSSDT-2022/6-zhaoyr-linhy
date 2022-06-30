@@ -12,7 +12,7 @@
 
 [李涵宇](https://github.com/lihanyum) 
 
-[杨志鹏](https://github.com/Buleshou)（￣︶￣）↗　
+[杨志鹏](https://github.com/Buleshou)ヾ(•ω•`)o
 
 [乔佳鑫](https://github.com/0613whalien)  
 
