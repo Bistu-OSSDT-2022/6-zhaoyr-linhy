@@ -121,9 +121,8 @@ def find_label(kmeans):
     return [np.argmax(t0), np.argmax(t1), np.argmax(t2),np.argmax(t3),np.argmax(t4),np.argmax(t5),np.argmax(t6)]
 # 合成代码
 # 随机初始质心位置，或修正收敛条件
-from sklearn.cluster import KMeans
-from sklearn import metrics
 k_means_acc = []
+m=0
 user_name = ['yi','er', 'san', 'ren','da','ba', 'shi']
 tdict = {'yi' :0, 'er':1, 'san':2, 'ren':3, 'da':4, 'ba':5, 'shi':6}
 for i in range(20):
@@ -139,13 +138,15 @@ for i in range(20):
         test_labels[i] = tdict[test_labels[i]]
         y_pred[i] = k_means_dict[y_pred[i]]
     # --eval
-    #print(metrics.adjusted_rand_score(test_labels, y_pred))
+    print(metrics.adjusted_rand_score(test_labels, y_pred))
+    if metrics.adjusted_rand_score(test_labels,y_pred)>m:
+        m=metrics.adjusted_rand_score(test_labels,y_pred)
+        model_path = './kmeans_model'
+        joblib.dump(kmeans,model_path)
     k_means_acc.append(metrics.accuracy_score(test_labels, y_pred))
     # 回滚test
     for i in range(700):
         test_labels[i] = user_name[test_labels[i]]
-
-import matplotlib.pyplot as plt
 def plot_graphs_kmeans(k_means_acc):
     plt.plot(k_means_acc)
     plt.xticks(np.arange(1, 20, 1))
@@ -153,3 +154,7 @@ def plot_graphs_kmeans(k_means_acc):
     plt.ylabel('acc')
     plt.show()
 plot_graphs_kmeans(k_means_acc)
+
+print('原数据标签：'+str(test_labels[:13])+"\n预测数据标签：")
+kmeans_model = joblib.load('kmeans_model')
+kmeans_model.predict(test_images[:13])
