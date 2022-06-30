@@ -47,5 +47,7 @@ PPT撰写：乔佳鑫 李涵宇
 # DEVELOPMENT
 1.building a data set      
 2.processing data     
-3.mock builds and evaluations    
+3.mock builds and evaluations       
+      
+      
 if you want to learn more about [development](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/development)
