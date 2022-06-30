@@ -25,7 +25,7 @@
 PPT撰写：乔佳鑫 李涵宇
 
 # Introduction
-这是一个人工智能识别汉字的小东西，还在积极还发中。。。。  
+这是一个人工智能识别汉字的小东西，还在积极开发中。。。。  
 想要了解更多可以查看[Introduction1](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/Introduction1)
 
 # Management Team
