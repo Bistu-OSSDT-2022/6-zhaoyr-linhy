@@ -44,6 +44,9 @@ PPT撰写：乔佳鑫 李涵宇
 
 # CODE
 [code-knn](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/code/%E6%88%90%E5%93%81%E4%BB%A3%E7%A0%81(knn))
+
+[code-k-means](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/code/%E6%88%90%E5%93%81%E4%BB%A3%E7%A0%81(k-means))
+
 # DEVELOPMENT
 1.building a data set      
 2.processing data     
