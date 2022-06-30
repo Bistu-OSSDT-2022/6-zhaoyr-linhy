@@ -7,8 +7,6 @@
 # Tutor
 赵永瑞😍😍😍
 
-![ ](/PICTURE/test.png)
-
 # Group Members
 [林涵钰](https://github.com/LinHanYul)  
 
@@ -63,5 +61,5 @@ PPT撰写：乔佳鑫 李涵宇
 if you want to learn more about [development](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/development)
 =======
 if you want to learn more about [development](https://github.com/Bistu-OSSDT-2022/6-zhaoyr-linhy/blob/program/development)
-s
-lalalallabb
+
+![ ](/PICTURE/test.png)
